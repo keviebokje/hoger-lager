@@ -79,7 +79,7 @@ h1 {
     color: white;
 }
 
-html {
+body {
     background-image: url(../img/achtergrond\ main.png);
 }
 
@@ -89,4 +89,29 @@ html {
 .reset,
 .gelijk {
     font-size: large;
+}
+
+@media screen and (max-height: 1440px) {
+    body {
+        background-image: url(../img/achtergrond\ main.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .wrapper {
+        width: 85%;
+        height: 388px;
+        text-align: center;
+        background-image: url(../img/achtergrond\ wrap.jpg);
+        border: 4px solid white;
+
+    }
+
+    .art3 {
+        height: 134px;
+        margin: 0 auto;
+        margin-top: 26px;
+        float: none;
+    }
 }
